@@ -5,7 +5,7 @@ div {
 }
 
 
-.row:last-child [class*='col-']  [class*='col-']{
+.row:last-child [class*='col-'] > [class*='col-']{
     background-color: #F07F80;
     border: 2px solid white;
 }
