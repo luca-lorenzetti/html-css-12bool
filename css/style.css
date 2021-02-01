@@ -1,21 +1,19 @@
-div {
-    background-color: #FFC0CB;
-    line-height: 200px;
-    text-align: center;
-}
-
-
-.row:last-child [class*='col-'] > [class*='col-']{
+.row:last-child [class*='col-']{
     background-color: #F07F80;
     border: 2px solid white;
 }
 
 .row {
     border: 1px solid black;
+    width: 100%;
+    line-height: 200px;
+    background-color: #FFC0CB;
+    text-align: center;
 }
 
 .left,
 .right {
-
+    float: left;
+    width: 50%;
     border: 1px solid black;
 }

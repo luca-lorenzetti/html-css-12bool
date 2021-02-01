@@ -16,6 +16,9 @@
 
 /***** CONTAINER *****/
 .container {
+    width: 100%;
+}
+.container-90 {
     width: 90%;
 }
 
@@ -39,11 +42,25 @@
     margin: 0 auto;
 }
 
+[class*='container']::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
 /***** ROW ******/
 .row {
     width: 100%;
 }
-
+.row-90 {
+    width: 90%;
+}
+.row-80 {
+    width: 80%;
+}
+.row-70 {
+    width: 70%;
+}
 .row::after {
     content: "";
     clear: both;
