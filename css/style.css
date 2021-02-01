@@ -14,13 +14,6 @@ div {
     border: 1px solid black;
 }
 
-.row:last-child::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-
 .left,
 .right {
 
