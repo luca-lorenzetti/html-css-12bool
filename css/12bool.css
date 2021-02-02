@@ -55,6 +55,9 @@
     margin: 0 auto;
 }
 
+[class*='container'] > *{
+    float:left;
+}
 [class*='container-no-m'] {
     margin: 0;
 }
@@ -64,22 +67,6 @@
     display: table;
 }
 
-/***** ROW ******/
-.row {
-    width: 100%;
-}
-.row > *{
-    float: left;
-}
-.row::after {
-    content: "";
-    clear: both;
-    display: table;
-}
-
-[class*='col-'] {
-    float: left;
-}
 
 /****** COL *****/
 .col-1 {

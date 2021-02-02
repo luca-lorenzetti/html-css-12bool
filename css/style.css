@@ -1,9 +1,9 @@
-.row:last-child [class*='col-']{
+.container:last-child [class*='col-']{
     background-color: #F07F80;
     border: 2px solid white;
 }
 
-.row {
+.container {
     border: 1px solid black;
     width: 100%;
     line-height: 200px;
